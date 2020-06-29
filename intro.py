@@ -32,8 +32,8 @@ class Player:
     def check_area(self):
         '''
 
-        This is a very simple example to show you how yo can manage the variables
-        GAME_STARTED and GAME_OVER to show messagem at right time.
+        This is a very simple example to show you how we can manage the variables
+        GAME_STARTED and GAME_OVER to show messages at right time.
         
         '''
         global GAME_OVER
@@ -76,7 +76,7 @@ while True:
             player.update()
 
         else:
-            # Create your game over scren here
+            # Create your game over screen here
             SCREEN.fill((0,0,255))        
             textOnScreen("Game Over!", 150, 150)                    
 
